@@ -17,7 +17,7 @@ def calculadora() -> None:
     global resultado    #   Indicamos que escribiremos sobre la variable global resultado
     
     print('Operaciones disponibles: suma, resta, producto, division.')
-    operacion = input('Ingrese la operación a realizar:').strip().lower()
+    operacion = input('Ingrese la operación a realizar:').strip().lower()  
     
     try:
         num1 = float(input('Igresa el primer número: '))
